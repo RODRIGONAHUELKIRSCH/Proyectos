@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\bin\Debug\Generador_DE_Texto.exe.config
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\bin\Debug\Generador_DE_Texto.exe
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\bin\Debug\Generador_DE_Texto.pdb
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.Form1.resources
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.exe
+C:\Users\Usuario\source\repos\Generador_DE_Texto\Generador_DE_Texto\obj\Debug\Generador_DE_Texto.pdb

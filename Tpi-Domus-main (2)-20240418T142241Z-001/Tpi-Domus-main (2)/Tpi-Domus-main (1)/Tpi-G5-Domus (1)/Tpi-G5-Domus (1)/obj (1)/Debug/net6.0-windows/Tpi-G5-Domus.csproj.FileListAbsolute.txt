@@ -1,0 +1,37 @@
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.exe
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.deps.json
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.runtimeconfig.json
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.dll
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.pdb
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi_G5_Domus.Form1.resources
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi_G5_Domus.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.dll
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\refint\Tpi-G5-Domus.dll
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.pdb
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\ref\Tpi-G5-Domus.dll
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.exe
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.deps.json
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.runtimeconfig.json
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.dll
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\bin\Debug\net6.0-windows\Tpi-G5-Domus.pdb
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi_G5_Domus.Form1.resources
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi_G5_Domus.Properties.Resources.resources
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.dll
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\refint\Tpi-G5-Domus.dll
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.pdb
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi-G5-Domus.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\ref\Tpi-G5-Domus.dll
+C:\Users\Usuario\Downloads\Tpi-Domus-main (1)\Tpi-Domus-main\Tpi-G5-Domus\Tpi-G5-Domus\obj\Debug\net6.0-windows\Tpi_G5_Domus.Secretaria.resources
