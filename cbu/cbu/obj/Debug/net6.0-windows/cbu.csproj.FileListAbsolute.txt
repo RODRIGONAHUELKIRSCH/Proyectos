@@ -1,0 +1,17 @@
+C:\Users\mrnaa\source\repos\cbu\cbu\bin\Debug\net6.0-windows\cbu.exe
+C:\Users\mrnaa\source\repos\cbu\cbu\bin\Debug\net6.0-windows\cbu.deps.json
+C:\Users\mrnaa\source\repos\cbu\cbu\bin\Debug\net6.0-windows\cbu.runtimeconfig.json
+C:\Users\mrnaa\source\repos\cbu\cbu\bin\Debug\net6.0-windows\cbu.dll
+C:\Users\mrnaa\source\repos\cbu\cbu\bin\Debug\net6.0-windows\cbu.pdb
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.csproj.AssemblyReference.cache
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.Form1.resources
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.csproj.GenerateResource.cache
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.AssemblyInfoInputs.cache
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.AssemblyInfo.cs
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.csproj.CoreCompileInputs.cache
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.dll
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\refint\cbu.dll
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.pdb
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\cbu.genruntimeconfig.cache
+C:\Users\mrnaa\source\repos\cbu\cbu\obj\Debug\net6.0-windows\ref\cbu.dll
