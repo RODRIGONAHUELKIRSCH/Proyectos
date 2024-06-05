@@ -1,0 +1,491 @@
+/*Header Style*/
+body{
+
+    margin:0; 
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    font-family: 'Josefin Sans';
+    height: 100px;
+    width: 100%;
+    background-color: #D0dfe0;
+    justify-content:last baseline;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+nav{
+    display:flex;
+    overflow:hidden;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right:  10px;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0;
+    flex-wrap: wrap;    
+}
+
+header > a{
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    color: #2e3536;
+    margin-right: 10px;
+    font-size: 24px;
+    
+}
+
+nav > a{
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    color: #2e3536;
+    margin-right: 10px;
+    display: inline-flexbox;
+    font-size: 24px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.carritodecompras{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    height: 22px;
+    display:flex;
+    margin-top: 45px;
+    position:absolute;
+    align-items: center;
+    margin-bottom: 7px;
+    align-self: flex-end;
+    right: 180px;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border: none;
+    color: #2e3536;
+}
+
+.carritodecompras:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.login{
+    font-size: 12px;
+    align-content: space-between;
+    justify-items: center;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 470px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans';
+    margin-right: 40px;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border:none;
+    color: #2e3536;
+    
+}
+
+.login:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.logout{
+    
+    font-size: 12px;
+    align-content: flex-end;
+    align-self: flex-start;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border: none;
+    color: #2e3536;
+}
+
+.logout:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.selec-categoria{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    height: 22px;
+    display:flex;
+    width: 150px;
+    margin-top: 45px;;
+    position:absolute;
+    margin-bottom: 7px;
+    align-self: flex-end;
+    right: 0.6%;
+}
+
+.sel-span{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    height: 22px;
+    display:flex;
+    margin-bottom: 25px;
+    position:absolute;
+    align-items: center;
+    align-self: flex-end;
+    right: 1.5%;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border: none;
+    color: #2e3536;
+}
+
+/*Body Style*/
+
+.body{
+  position: relative;
+  background-color: #d4b9d6;
+  width: 100%;
+  height: 584px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  
+}
+
+.catalog{
+    position: relative;
+    background-color: #d4b9d6;
+    margin:auto;
+    display: flex;;
+    text-align: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    align-items: center;
+    justify-content:flex-start;
+
+}
+
+.item{
+position: relative;
+padding: 10px;
+justify-items: center;
+align-items: center;
+
+}
+
+.img-span{ 
+ display: inline-block;
+ position: absolute;
+ object-fit: cover;
+ box-sizing: border-box;
+}
+
+.image-item{
+margin-left: 30px;
+display: block;
+position: relative; 
+object-fit:cover;
+box-sizing: border-box;
+}
+
+.span-name{
+    margin-left: 15px;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    text-align: center;
+}
+
+.span-precio{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    text-align: center;
+}
+
+.span-cant{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-item{
+    font-family: 'Josefin Sans';
+    width: 140px;
+    height: 43px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #19408f;
+    border: 3px solid #d4b9d6;
+    cursor: pointer;
+    white-space:nowrap;
+}
+
+.btn-item:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cart-modal{
+    width: 100%;
+    height: 746px;
+    background-color: rgba(0, 0,0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.cart-container{
+width: 600px;
+height: 600px;
+background-color: #fff;
+text-align: center;
+border-radius: 4px;
+padding: 20px;
+position: relative;
+}
+
+.cart-elem{
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.cart-close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+/* .body{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 584px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:baseline;
+    justify-content: flex-start;
+    padding: 4px 0;
+    box-sizing: border-box;
+    gap: 70px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding: 5px;
+} */
+
+  
+/*Table Style*/
+
+.cart-elem{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    color: #0e4a67;
+    font-weight: bold;
+}
+
+.tab-prod{
+    width: 100%;
+    margin-right: 15px;
+    font-family: 'Source Sans Pro';
+    color: #0e4a67;
+
+}
+.thead-prod{
+    font-size: 14px;
+    color: #0e4a67;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+
+th{
+    padding: 20px 15px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #d4b9d6;
+    text-align: center;
+
+}
+
+td{
+    padding: 15px;
+
+}
+
+.t-body_prod{
+    font-size: 14px;
+    color: #0e4a67;
+    font-family: 'Source Sans Pro';
+}
+
+.acart{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    color: #0e4a67;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.t-body_prod tr{
+    cursor: pointer;
+}
+
+.t-body_prod tr:hover{
+    background-color: #D0dfe0;
+}
+
+.total-amount{
+    margin-top: 10px;
+}
+
+.input-sub{
+    font-family: 'Source Sans Pro';
+    width: 146px;
+    height: 33px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fe904b;
+    border: none;
+    cursor: pointer;
+}
+
+.input-sub:hover{
+    text-decoration: underline;
+}
+
+/*hechoamanopayment@gmail.com*/
+/*Footer Style*/
+
+.footer{
+    display: flex;
+    position:relative;
+    background-color: #2e3536;
+    height: 84px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.seguinosen{
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    align-items: center;
+    justify-self: center;
+    margin-right: 20px;
+    margin-left: 100px;
+    white-space:nowrap;
+    gap: 90px;
+}
+ 
+.span-footer1{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+
+.hr-footer1{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+    margin-left: 70px;
+}
+
+.span-footer2{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.hr-footer2{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+    margin-left: 100px;
+}
+
+.facebook,.insta{
+    position: relative ;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+  .logo-footer{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  .copiright{
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    margin-right: 30px;
+    white-space:nowrap;
+  }
+
+  .logo-footer,.copiright{
+    display:flex;
+    margin-top: 45px;;
+    position:absolute;
+    margin-bottom: 7px;
+    align-self: flex-end;
+
+  }
+
+  .logo-footer{
+    right: 10%;
+  }
+
+  .copiright{
+    right: 0.6%;
+  }

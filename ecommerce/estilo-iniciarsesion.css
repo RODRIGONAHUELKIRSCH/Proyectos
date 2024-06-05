@@ -1,0 +1,469 @@
+body{
+
+    margin:0; 
+    padding: 0;
+    
+}
+
+header{
+    top: 0%;
+    display: flex;
+    font-family: 'Josefin Sans';
+    height: 100px;
+    width: 100%;
+    background-color: #D0dfe0;
+    justify-content:last baseline;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+nav{
+    display:flex;
+    overflow:hidden;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right:  10px;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0;
+    flex-wrap: wrap;    
+}
+
+header > a{
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    color: #2e3536;
+    margin-right: 10px;
+    font-size: 24px;
+    
+}
+
+nav > a{
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    color: #2e3536;
+    margin-right: 10px;
+    font-size: 24px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.iniciarsesion{
+    font-size: 12px;
+    justify-items: end;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 470px;
+    margin-top: 17px;
+    font-family: 'Josefin Sans';
+    margin-right: 20px;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border:none;
+    color: #2e3536;
+    
+}
+
+.iniciarsesion:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.carritodecompras{
+    
+    font-size: 12px;
+    align-content: space-between;
+    align-self: flex-start;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+    margin-right: 10px;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border: none;
+    color: #2e3536;
+}
+
+.carritodecompras:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.body{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 684px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 4px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+
+
+.titulo{
+    font-family: 'Source Sans Pro';
+    display:flex;
+    color: #0e4a67;
+    font-size: 25px;
+    justify-content: start;
+    align-content: center;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight:normal;
+    margin-bottom: 60px;
+    
+}
+
+.subtitulo > .notienes-unacuenta{
+    color: #37677e;
+    font-family: 'Source Sans Pro';
+}
+
+.subtitulo > .creala-ahora{
+    color: #fe904b;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+}
+
+.subtitulo > .creala-ahora:hover{
+    text-decoration: underline;
+}
+
+.notfound{
+    font-family: 'Source Sans Pro';
+    display:flex;
+    color: #0e4a67;
+    font-size: 18px;
+    justify-content: start;
+    align-content: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grupo{
+    flex-direction: column;
+    align-content: center;
+}
+
+.grupo > label{
+    color: #207198;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+.grupo >.input-texto {
+    width: 336px;
+    height: 43px;
+    border: 2px solid #207198;
+    border-radius: 10px;
+    outline-color: #207198;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    color: #0e4a67;
+    margin-bottom: 30px;
+}
+
+.verPassword{
+    font-size: 16px;
+    align-self: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.btniniciarsesion{
+    font-family: 'Source Sans Pro';
+    width: 346px;
+    height: 43px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #fe904b;
+    border: none;
+    cursor: pointer;
+}
+
+.btniniciarsesion:hover{
+    text-decoration: underline;
+}
+
+.olvido{
+    display: flex;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    color: #0e4a67;
+    text-decoration: none;
+}
+
+.olvido:hover{
+    text-decoration: underline;
+}
+
+
+.o{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e4a67;
+}
+
+.hr1{
+    display: inline-block;
+    width: 140px;   
+    margin: auto 30px 5px auto ;
+    align-content: center;
+    color: #0e4a67;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.hr2{
+    display: inline-block;
+    width: 140px;
+    margin: auto auto 5px 30px ;
+    align-content: center;
+    color: #0e4a67;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+
+.btngoogle{
+    display: flex;
+    width: 346px;
+    height: 43px;
+    background-color: #e3f1fe;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: #207198;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #207198;
+}
+
+.btngoogle:hover{
+    cursor: pointer;
+    text-decoration: underline;    
+}
+
+.img-google{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    margin-left: 50px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+
+.modal-container{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #111111db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    transform: translateY(0%);
+    transition: transform .6s;
+    border-radius: 10px;
+}
+
+.modal-close{
+    transform: translateY(-300%);
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height:25px;
+    background-color: #633011;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.modal-text{
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    color: #2e3536;
+    box-sizing: border-box;
+    white-space: nowrap;
+    justify-content: start;
+    align-items:center;
+}
+
+.modal-img{
+    display: inline-flex;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+
+.footer{
+    display: flex;
+    position:relative;
+    background-color: #2e3536;
+    height: 84px;
+    width: 100%;
+    flex-wrap: wrap;
+    bottom: 0%;
+}
+
+.seguinosen{
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    align-items: center;
+    justify-self: center;
+    margin-right: 20px;
+    margin-left: 100px;
+    white-space:nowrap;
+    gap: 90px;
+}
+ 
+.span-footer1{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+
+.hr-footer1{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+    margin-left: 70px;
+
+}
+
+.span-footer2{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.hr-footer2{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+    margin-left: 100px;
+}
+
+.facebook,.insta{
+    position: relative;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+  .logo-footer{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  .copiright{
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    margin-right: 30px;
+    white-space:nowrap;
+  }
+
+  .logo-footer,.copiright{
+    display:flex;
+    margin-top: 45px;;
+    position:absolute;
+    margin-bottom: 7px;
+    align-self: flex-end;
+
+  }
+
+  .logo-footer{
+    right: 10%;
+  }
+
+  .copiright{
+    right: 0.6%;
+  }

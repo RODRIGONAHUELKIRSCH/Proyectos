@@ -1,0 +1,398 @@
+body{
+
+    margin:0; 
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    font-family: 'Josefin Sans';
+    height: 100px;
+    width: 100%;
+    background-color: #D0dfe0;
+    justify-content:last baseline;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+nav{
+    display:flex;
+    overflow:hidden;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right:  10px;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0;
+    flex-wrap: wrap;    
+}
+
+header > a{
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    color: #2e3536;
+    margin-right: 10px;
+    font-size: 24px;
+    
+}
+
+nav > a{
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    color: #2e3536;
+    margin-right: 10px;
+    display: inline-flexbox;
+    font-size: 24px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.login{
+    font-size: 12px;
+    align-content: space-between;
+    justify-items: center;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 470px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans';
+    margin-right: 40px;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border:none;
+    color: #2e3536;
+    
+}
+
+.login:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.logout{
+    
+    font-size: 12px;
+    align-content: space-between;
+    align-self: flex-start;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+    margin-right: 10px;
+    white-space: nowrap;
+    background-color: #D0dfe0;
+    border: none;
+    color: #2e3536;
+}
+
+.logout:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.body{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 684px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+    box-sizing: border-box;
+    align-items: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+/*Products 2buy  data*/
+
+.prod_table_left{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 90%;
+    position: relative;
+    float: left;
+}
+
+.payr{
+    position: relative;
+    margin-top: 50px;
+    float: right;
+}
+
+.table_title{
+font-size: 20px;
+font-family: 'Josefin Sans';
+color: #0e4a67;
+font-weight: bold;
+}
+
+.tab-payprod{
+    width: 100%;
+    font-family: 'Noto Sans';
+    color: #0e4a67;
+}
+
+.thead-payprod{
+    font-size: 14px;
+    color: #0e4a67;
+    font-family: 'Noto Sans';
+
+}
+
+th{
+    padding: 20px 15px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #d4b9d6;
+}
+
+td{
+    padding: 15px;
+
+}
+
+.t-pay_prod{
+    font-size: 14px;
+    color: #0e4a67;
+    font-family: 'Noto Sans';
+
+}
+
+.nopayprod{
+    display: none;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    color: #0e4a67;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.t-pay_prod tr{
+    cursor: pointer;
+}
+
+.t-pay_prod tr:hover{
+    background-color: #D0dfe0;
+}
+
+.checkout-btn{
+    font-family: 'Source Sans Pro';
+    display: none;
+    margin: 20px auto auto auto;
+    width: 126px;
+    height: 34px;
+    border-radius: 10px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.wallet_container{
+    margin-top:100px;
+}
+/*Card data*/
+
+/* .payright{
+
+} */
+
+/* #payment_form{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.lab-credeb{
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    color: #0e4a67;;
+    font-weight: bolder;
+    /* color: #383849; 
+}
+
+/* #id_creditdebit{
+    width: 200px;
+    height:30px;
+    outline: none;
+    border: 1px solid #207198;
+    border-radius: 10px;
+}
+
+.lab-cvc{
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    color: #0e4a67;
+    font-weight: bolder;
+    /* color: #383849; */
+/* }
+
+#id_cvc{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #207198;
+    border-radius: 10px;
+}
+
+
+.lab-fven{
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    color: #0e4a67;
+    font-weight: bolder;
+    /* color: #383849; 
+}
+
+#fecha_ven{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid  #207198;
+    border-radius: 10px;
+}
+
+.btnsub{
+    font-size: 16px;
+    width: 210px;
+    height: 35px;
+    font-family: 'Noto Sans';
+    outline: none;
+    border: 1px solid #207198;
+    border-radius: 10px;
+    background-color: #fe904b;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+.btnsub:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}  */
+
+/*Footer section*/
+.footer{
+
+    display: flex;
+    position:relative;
+    background-color: #2e3536;
+    height: 84px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.seguinosen{
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    align-items: center;
+    justify-self: center;
+    margin-right: 20px;
+    margin-left: 100px;
+    white-space:nowrap;
+    gap: 90px;
+}
+ 
+.span-footer1{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+
+.hr-footer1{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+    margin-left: 70px;
+}
+
+.span-footer2{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.hr-footer2{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    justify-self: flex-start;
+    align-self: center;
+    position: relative;
+    margin-left: 100px;
+}
+
+.facebook,.insta{
+    position: relative;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+  .logo-footer{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  .copiright{
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    margin-right: 30px;
+    white-space:nowrap;
+  }
+
+  .logo-footer,.copiright{
+    display:flex;
+    margin-top: 45px;;
+    position:absolute;
+    margin-bottom: 7px;
+    align-self: flex-end;
+
+  }
+
+  .logo-footer{
+    right: 10%;
+  }
+
+  .copiright{
+    right: 0.6%;
+  }
