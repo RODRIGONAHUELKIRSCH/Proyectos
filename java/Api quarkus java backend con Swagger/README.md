@@ -21,14 +21,6 @@
   - Consumes: application/json
   - Produces: application/json
 
-- **PUT /medicos/{id}**
-  - Consumes: application/json
-  - Produces: application/json
-
-- **DELETE /medicos/{id}**
-  - Consumes: application/json
-  - Produces: application/json
-
 ### /especialidades
 
 - **GET /especialidades**
@@ -45,11 +37,11 @@
   - Consumes: application/json
   - Produces: application/json
 
-- **DELETE /especialidades/{id}**
+### /paciente
+
+- **GET /pacientes**
   - Consumes: application/json
   - Produces: application/json
-
-### /paciente
 
 - **POST /paciente**
   - Ejemplo de solicitud:
@@ -66,6 +58,10 @@
 
 ### /disponibilidades
 
+- **GET /disponibilidades**
+  - Consumes: application/json
+  - Produces: application/json
+
 - **POST /disponibilidades**
   - Ejemplo de solicitud:
     ```json
@@ -80,6 +76,10 @@
 
 ### /turnos
 
+- **GET /turnos**
+  - Consumes: application/json
+  - Produces: application/json
+
 - **POST /turnos**
   - Ejemplo de solicitud:
     ```json
@@ -93,3 +93,28 @@
   - Consumes: application/json
   - Produces: application/json
     
+- **PUT /turnos/{id}**
+  - Consumes: application/json
+  - Produces: application/json
+
+- **DELETE /turnos/{id}**
+  - Consumes: application/json
+  - Produces: application/json
+
+  ### /recetas
+
+- **GET /recetas**
+  - Consumes: application/json
+  - Produces: application/json
+
+- **POST /recetas**
+  - Ejemplo de solicitud:
+    ```json
+    {
+    "idturno":2,
+    "fecha_hora":"lahorayfecha"
+    }
+    ```
+
+  - Consumes: application/json
+  - Produces: application/json
