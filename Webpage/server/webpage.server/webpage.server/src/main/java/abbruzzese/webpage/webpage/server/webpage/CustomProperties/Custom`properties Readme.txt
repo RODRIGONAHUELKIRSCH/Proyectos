@@ -1,0 +1,2 @@
+//Ejemplo
+//Propiedades personalizadas

@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "product.upload-dir",
+    "type": "java.lang.String",
+    "description": "Picture of product"
+  },
+  {
+    "name": "event.image.upload-dir",
+    "type": "java.lang.String",
+    "description": "Picture of event-image"
+  },
+  {
+    "name": "magazine.upload-dir",
+    "type": "java.lang.String",
+    "description": "Picture of magazine"
+  }
+]}

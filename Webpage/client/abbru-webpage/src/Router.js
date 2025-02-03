@@ -1,0 +1,20 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import SignIn from './pages/Signin';
+import Register from './pages/Form';
+import Recover from './pages/Recover';
+import Inicio from './pages/Home';
+import Company from './pages/Company';
+import News from './pages/Event';
+import Contact from './pages/Contact';
+import PasswordReset from './pages/PasswordRecovery';
+import ProtectedRoute from './pages/ProtectedRoute';
+import Magazine from './pages/Magazines';
+import ProtectedLoginRoute from './pages/ProtectedLoginRoute';
+import ProtectedCookieRoute from './pages/ProtectedCookieRoute';
+import CookiePolicy from './pages/CookiePolicy';
+import Productos from './pages/Productos';
+const App = () => {
+    return (_jsx(BrowserRouter, { basename: "/frontend", children: _jsxs(Routes, { children: [_jsx(Route, { path: '/policy', element: _jsx(CookiePolicy, {}) }), _jsx(Route, { path: '/', element: _jsx(Inicio, {}) }), _jsx(Route, { path: '/register', element: _jsx(ProtectedLoginRoute, { children: _jsx(Register, {}) }) }), _jsx(Route, { path: '/recover', element: _jsx(ProtectedLoginRoute, { children: _jsx(Recover, {}) }) }), _jsx(Route, { path: '/signin', element: _jsx(ProtectedLoginRoute, { children: _jsx(SignIn, {}) }) }), _jsx(Route, { path: "/aboutus", element: _jsx(Company, {}) }), _jsx(Route, { path: "/contact", element: _jsx(Contact, {}) }), _jsx(Route, { path: '/passwordreset', element: _jsx(PasswordReset, {}) }), _jsx(Route, { path: '/magazine', element: _jsx(Magazine, {}) }), _jsx(Route, { path: "/products", element: _jsx(ProtectedCookieRoute, { children: _jsx(ProtectedRoute, { children: _jsx(Productos, {}) }) }) }), _jsx(Route, { path: "/news", element: _jsx(ProtectedCookieRoute, { children: _jsx(ProtectedRoute, { children: _jsx(News, {}) }) }) })] }) }));
+};
+export default App;
